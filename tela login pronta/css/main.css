@@ -1,0 +1,36 @@
+
+
+
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.853);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: mudar 12s infinite alternate;
+};
+
+body{
+    background-color: transparent;
+}
+
+@keyframes mudar {
+    0%{
+        background-image: url(../img/d1-1024x576.png);
+    }
+
+    50%{
+
+        background-image: url(../img/d3-1024x576.png)
+    }
+  
+
+    100%{
+        background-image: url(../img/dc1.jpg)
+    }
+};
+

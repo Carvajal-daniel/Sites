@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======style====== -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/login-container.css" />
+    <link rel="stylesheet" href="./css/form-container.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+
+    <!-- =========fontAwesome======== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- =========tittle======== -->
+    <title>Login - Daniel</title>
+</head>
+
+<body>
+    <main>
+        <img src="./img/logo-digital.png" alt="">
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+                <form class="form form-login">
+                    <h2 class="form-tittle">Entrar com</h2>
+
+                    <div class="form-social">
+                        <a class="social-icon" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-google"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <p class="form-text">Ou utulize sua conta</p>
+
+                    <div class="form-iputs">
+                        <input type="email" name="email" placeholder=" Email" class="form-input" required />
+                        <input type="password" name="password" placeholder=" Senha" class="form-input" required />
+                    </div>
+                    <a href="#" class="form-link">Esqueceu a senha?</a>
+
+                    <button class="form-button">Logar</button>
+                </form>
+
+                <form class="form-register form">
+                    <h2 class="form-tittle">Criar Conta</h2>
+                    
+                    <div class="form-social">
+                        
+                        <a class="social-icon" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-google"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <p href="" class="form-text">Ou cadastre-se aquí</p>
+
+                    <div class="form-iputs">
+                        <input type="text" name="name" placeholder=" Nome Completo" class="form-input" required />
+                        <input type="email" name="email" placeholder=" Email" class="form-input" required />
+                        <input type="password" name="password" placeholder=" Senha" class="form-input" required />
+                    </div>
+
+                    <button class="form-button"> Cadastrar</button>
+                </form>
+            </div>
+
+            
+                    <div class="overlay-container ">
+                        <div class="overlay">
+                            <div class="overlay">
+                                <h2 class="form-tittle form-tittle-modificador">Já tem conta?</h2>
+                                <p href="" class="form-text">Para entrar na nossa plataforma faça o login com suas informações</p>
+                                <button class="form-button form-button-mod" id="menuclose">entrar</button>
+                            </div>
+                        </div>
+
+                       <div class="overlay" id="overlay2">
+                            <h2 class="form-tittle form-tittle-modificador">Bem-vindo!</h2>
+                            <p href="" class="form-text">Cadastre-se e comece a usar a nossa plataforma de estudos on-line.</p>
+                            <button class="form-button form-button-mod" id="open-register">Cadastrar</button>
+                        </div> 
+                    </div>
+        </div>
+
+    </main>
+
+    <script src="./js/main.js" defer></script>
+</body>
+
+</html>
